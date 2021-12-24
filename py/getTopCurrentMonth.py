@@ -6,4 +6,3 @@ def get_top_current_month(conn):
     rows = cur.fetchall()
     conn.close()
     return rows
-

@@ -1,176 +1,173 @@
 #graph_body {
-    height: 300px;
-    padding: 40px 50px 0px 10px;
-    position: relative;
-    /*border: 1px solid black;*/
-    font-family: 'Arial';
-    white-space: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    margin: 0 0 25px 15px;
-    font-size: 15px;
-    font-weight: normal !important;
+  height: 300px;
+  padding: 40px 50px 0 10px;
+  position: relative;
+
+  /* border: 1px solid black; */
+  font-family: "Arial";
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 0 0 25px 15px;
+  font-size: 15px;
+  font-weight: normal !important;
 }
 
 #graph_body svg {
-    display: none;
+  display: none;
 }
 
-*::-webkit-scrollbar { 
-    display: none;
+*::-webkit-scrollbar {
+  display: none;
 }
 
 #graph_body table {
-    border-spacing: 0px;
-    table-layout:fixed;
+  border-spacing: 0;
+  table-layout: fixed;
 }
 
 #graph_body table td {
-    overflow: hidden;
-    display: inline-block;
-    white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
 }
 
 #graph_buttons {
-    position: absolute;
-    width: 200px;
-    height: 25px;
-    top: 0px;
-    z-index: 1000;
+  position: absolute;
+  width: 200px;
+  height: 25px;
+  top: 0;
+  z-index: 1000;
 }
 
 .graph_buttons_inst {
-    box-sizing: border-box;
-    display: none;
-    height: 25px;
-    width: 100px;
-    line-height: 25px;
-    text-align: center;
-    margin: 5px;
-    border: 1px solid rgb(0,0,0,0.4);
-    background: rgb(0,0,0,0.09);
-    cursor: pointer;
-    transition-duration: 0.3s;
-    box-shadow: inset 0 0 5px 4px rgb(0,0,0,0.05);
-    border-radius: 2px;
+  box-sizing: border-box;
+  display: none;
+  height: 25px;
+  width: 100px;
+  line-height: 25px;
+  text-align: center;
+  margin: 5px;
+  border: 1px solid rgb(0 0 0 / 40%);
+  background: rgb(0 0 0 / 9%);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  box-shadow: inset 0 0 5px 4px rgb(0 0 0 / 5%);
+  border-radius: 2px;
 }
 
 .graph_buttons_inst_shown {
-    display: inline-block;
+  display: inline-block;
 }
 
 .graph_buttons_inst:hover {
-    background: rgb(0,0,0,0.12);
+  background: rgb(0 0 0 / 12%);
 }
 
 #graph_stats {
-    right: 0px;
-    position: absolute;
-    width: 200px;
-    height: 40px;
-    top: 0px;
+  right: 0;
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  top: 0;
 }
 
 .graph_inside {
-    display: inline-block;
-    position:relative;
-    height: 300px;
-    float: left;
+  display: inline-block;
+  position: relative;
+  height: 300px;
+  float: left;
 }
 
 #graph_vertical {
-    width: 80px;
-    
+  width: 80px;
 }
 
 #graph_main {
-    width: 1092px;
-    overflow-x: scroll;
-    overflow-y: hidden;
+  width: 1092px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 #graph_table {
-    min-height: 130px;
-    white-space: nowrap;
-    min-width: 100%;
-    height: 260px;
+  min-height: 130px;
+  white-space: nowrap;
+  min-width: 100%;
+  height: 260px;
 }
 
 #graph_desc {
-    height: 40px;
-    min-width: 100%;
-    white-space: nowrap;
+  height: 40px;
+  min-width: 100%;
+  white-space: nowrap;
 }
 
-
 .graph_table_cont {
-    width: 40px;
-    display: inline-block;
-    vertical-align: top;
+  width: 40px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .graph_main_margin {
-    margin: 0px 10px 0px 10px;
+  margin: 0 10px;
 }
 
 .graph_table_cont_ceil {
-    height: 40%;
-    width: 100%;
-    background: white;
-    text-align: center;
-    display:table;
+  height: 40%;
+  width: 100%;
+  background: white;
+  text-align: center;
+  display: table;
 }
 
 .graph_table_cont_ceil span {
-    font-size: 25px;
-    vertical-align: bottom;
-    display:table-cell;
-    padding-bottom: 5px;  
-    opacity: 0
+  font-size: 25px;
+  vertical-align: bottom;
+  display: table-cell;
+  padding-bottom: 5px;
+  opacity: 0;
 }
 
 .graph_table_cont_floor {
-    height: 60%;
-    width: 100%;
-    background: #b3d3ba;
-    margin: auto;
+  height: 60%;
+  width: 100%;
+  background: #b3d3ba;
+  margin: auto;
 }
 
 .graph_table_cont_hover span {
-    opacity: 100;
+  opacity: 100;
 }
 
 .graph_table_cont_hover .graph_table_cont_floor {
-    background: #7cb189;
+  background: #7cb189;
 }
 
 #graph_desc div {
-    line-height: 40px;
-    text-align: center;
-    display: inline-block;
+  line-height: 40px;
+  text-align: center;
+  display: inline-block;
 }
 
 .graph_vertical_inst {
-    height: 52px;
-    position: relative;
-    text-align: right;
-    line-height: 52px;
+  height: 52px;
+  position: relative;
+  text-align: right;
+  line-height: 52px;
 }
 
-
-
 #graph_vertical td:nth-child(1) {
-    padding-right: 5px;
-    width: 50px;
+  padding-right: 5px;
+  width: 50px;
 }
 
 .graph_table_circle {
-    border-radius: 50%;
-    background: gold;
-    transition-duration: 0.3s;
-    transition-property: transform;
+  border-radius: 50%;
+  background: gold;
+  transition-duration: 0.3s;
+  transition-property: transform;
 }
 
 .graph_table_circle:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }

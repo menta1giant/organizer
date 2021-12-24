@@ -13,5 +13,5 @@ def create_connection(db_file):
         return conn
     except Error as e:
         print(e)
- 
+
     return None

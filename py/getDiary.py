@@ -1,13 +1,12 @@
 #!C:\Users\Mental Giant\AppData\Local\Programs\Python\Python38\python.exe
 
-import sqlite3
-from sqlite3 import Error
-import cgi, cgitb
+import cgi
 import json
 
-data= cgi.FieldStorage()
+data = cgi.FieldStorage()
 
 d = data.getfirst("d", "20160101")
+
 
 def read_file(fn):
     r = ''
@@ -16,8 +15,9 @@ def read_file(fn):
         r = f.read()
     except IOError:
         f = open(fn, 'w')
-    f.close();
+    f.close()
     return r
+
 
 fn = "..\\diary\\" + str(d) + ".txt"
 text = json.dumps(read_file(fn))

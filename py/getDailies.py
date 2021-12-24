@@ -1,14 +1,13 @@
 #!C:\Users\Mental Giant\AppData\Local\Programs\Python\Python38\python.exe
 
-import sqlite3
-from sqlite3 import Error
-import cgi, cgitb
+import cgi
 import json
+
 import createConnection as cconn
 
-data= cgi.FieldStorage()
+data = cgi.FieldStorage()
 
-db_file = '..\diary.db'
+db_file = '..\\diary.db'
 
 d = data.getfirst("d", "20200528")
 

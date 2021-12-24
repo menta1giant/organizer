@@ -1,189 +1,192 @@
 * {
-    font-family: 'Century Gothic';
-    margin: 0;
-    padding: 0;
+  font-family: "Century Gothic";
+  margin: 0;
+  padding: 0;
 }
 
 .image {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 #main {
-    position: relative;
-    margin-left: 400px;
-    height: 100%;
+  position: relative;
+  margin-left: 400px;
+  height: 100%;
 }
 
 #date {
-    position: absolute;
-    color: white;
-    width: 250px;
-    left:50px;
-    font-size: 30px;
-    top: 20px;
-    text-align: center;
+  position: absolute;
+  color: white;
+  width: 250px;
+  left: 50px;
+  font-size: 30px;
+  top: 20px;
+  text-align: center;
 }
 
 #date div {
-    display: inline-block;
+  display: inline-block;
 }
 
 #date span {
-    cursor: pointer;
-    color: #b8cfe9;
-    font-weight: bold;
+  cursor: pointer;
+  color: #b8cfe9;
+  font-weight: bold;
 }
 
 #cover {
-    display: none;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(0,0,0,0.3);
-    z-index: 1000;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 30%);
+  z-index: 1000;
 }
 
 #cover_info {
-    position: relative;
-    width: 1370px;
-    margin: auto;
-    margin-top: 100px;
-    border: 5px solid #2a2f5b;
-    background: white;
-    overflow: hidden;
-    padding-left: 30px;
+  position: relative;
+  width: 1370px;
+  margin: auto;
+  margin-top: 100px;
+  border: 5px solid #2a2f5b;
+  background: white;
+  overflow: hidden;
+  padding-left: 30px;
 }
 
 #cover_stats {
-    width: 100%;
-    height: 400px;
+  width: 100%;
+  height: 400px;
 }
 
 .coverElem {
-    display: inline-block;
+  display: inline-block;
 }
 
 .photo_big {
-    margin: 50px 50px 10px 50px;
-    width: 280px;
-    height: 280px;
-    border: 2px solid #2a2f5b;
+  margin: 50px 50px 10px;
+  width: 280px;
+  height: 280px;
+  border: 2px solid #2a2f5b;
 }
 
 #coverUploadButton {
-    display: block;
-    border: 1px solid rgb(0,0,0,0.5);
-    background: radial-gradient(#2a2f5b,#2a2f5b);
-    text-align: center;
-    color: white;
-    width: 60%;
-    border-radius: 5px;
-    margin: auto;
-    box-shadow: 0px 0px 8px rgb(0,0,0,0.3) inset;
-    cursor: pointer;
-    transition-duration: 1s;
-    padding: 3px 0px 3px 0px;
+  display: block;
+  border: 1px solid rgb(0 0 0 / 50%);
+  background: radial-gradient(#2a2f5b, #2a2f5b);
+  text-align: center;
+  color: white;
+  width: 60%;
+  border-radius: 5px;
+  margin: auto;
+  box-shadow: 0 0 8px rgb(0 0 0 / 30%) inset;
+  cursor: pointer;
+  transition-duration: 1s;
+  padding: 3px 0;
 }
 
 #coverUploadPhoto {
-    opacity: 0;
-    position: absolute;
-    z-index: -1;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 #coverUploadButton:hover {
-    background: radial-gradient(#4a4a7c,#2a2f5b);
+  background: radial-gradient(#4a4a7c, #2a2f5b);
 }
 
 #cover_stats_text {
-    height: 100%;
-    vertical-align: top;
-    margin-top: 50px;
-    width: 850px;
+  height: 100%;
+  vertical-align: top;
+  margin-top: 50px;
+  width: 850px;
 }
 
-#cover_stats_text span, #s_desc {
-    font-size: 35px;
+#cover_stats_text span,
+#s_desc {
+  font-size: 35px;
 }
 
-
-#s_name, #s_pt {
-    font-weight: bold;
+#s_name,
+#s_pt {
+  font-weight: bold;
 }
 
 #s_desc {
-    margin-top: 5px;
-    font-style: italic;
+  margin-top: 5px;
+  font-style: italic;
 }
 
 *:focus {
-    outline: none !important
+  outline: none !important;
 }
 
 #cs_buttons {
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    height: 50px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  height: 50px;
 }
 
 .csb_inst {
-    height: 45px;
-    width: 45px;
-    line-height: 45px;
-    text-align: center;
-    cursor: pointer;
-    border: 2px solid rgb(0,0,0,0);
-    transition-duration: 0.2s;
-    font-size: 25px;
-    background-image: url(../resources/pen.png);
-    background-size: contain;
-    border-radius: 2px;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid rgb(0 0 0 / 0%);
+  transition-duration: 0.2s;
+  font-size: 25px;
+  background-image: url(../resources/pen.png);
+  background-size: contain;
+  border-radius: 2px;
 }
 
 .csb_inst:hover {
-    
+
 }
 
 .csb_inst_selected {
-    border-color: #2a2f5b;
-    /*box-shadow: 0 0 0px 2px gold*/
+  border-color: #2a2f5b;
+
+  /* box-shadow: 0 0 0px 2px gold */
 }
 
 #s_name {
-    height: 50px;
-    font-size: 40px;
+  height: 50px;
+  font-size: 40px;
 }
 
-#cover_stats_text input, #cover_stats_text textarea{
-    height: 100%;
-    width: 100%;
-    border-width: 0px;
+#cover_stats_text input,
+#cover_stats_text textarea {
+  height: 100%;
+  width: 100%;
+  border-width: 0;
 }
 
-input[name='sNameInput'] {
-    font-size: 40px;
-    font-weight: bold;
+input[name="sNameInput"] {
+  font-size: 40px;
+  font-weight: bold;
 }
 
-textarea[name='sDescInput'] {
-    font-size: 35px;
-    font-style: italic;
+textarea[name="sDescInput"] {
+  font-size: 35px;
+  font-style: italic;
 }
 
 #s_name input:focus {
-    outline: none;
+  outline: none;
 }
 
 #s_desc {
-    height: 180px;
+  height: 180px;
 }

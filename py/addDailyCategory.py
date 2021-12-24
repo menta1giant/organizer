@@ -1,17 +1,16 @@
 #!C:\Users\Mental Giant\AppData\Local\Programs\Python\Python38\python.exe
-import sqlite3
+import cgi
 from sqlite3 import Error
-import cgi, cgitb
-import json
+
 import createConnection as cconn
 
-data= cgi.FieldStorage()
+data = cgi.FieldStorage()
 
-db_file = '..\diary.db'
+db_file = '..\\diary.db'
 
-catName = data.getfirst('cat','')
-isCheckbox = data.getfirst('iscb',0)
-v = (catName,isCheckbox)
+catName = data.getfirst('cat', '')
+isCheckbox = data.getfirst('iscb', 0)
+v = (catName, isCheckbox)
 
 conn = cconn.create_connection(db_file)
 

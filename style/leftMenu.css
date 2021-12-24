@@ -1,46 +1,48 @@
-#leftMenu{
-    width: 350px;
-    height: 100%;
-    position: fixed;
-    background: linear-gradient(90deg,#121747,#363D81 100%);
-    top: 0px;
-    box-shadow: 0 0 5px rgba(0,0,0,1);
+#leftMenu {
+  width: 350px;
+  height: 100%;
+  position: fixed;
+  background: linear-gradient(90deg, #121747, #363d81 100%);
+  top: 0;
+  box-shadow: 0 0 5px rgb(0 0 0 / 100%);
 }
 
 #menuObj {
-    position: relative;
-    margin-top: 150px;
-    color: #e5e5e5;
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    padding-right: 20px;
-    line-height: 55px;
+  position: relative;
+  margin-top: 150px;
+  color: #e5e5e5;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding-right: 20px;
+  line-height: 55px;
 }
 
 #menuObj span {
-    transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
-#menuObj span:hover, #confirm:hover {
-    cursor: pointer;
-    color: white;
+#menuObj span:hover,
+#confirm:hover {
+  cursor: pointer;
+  color: white;
 }
 
 #confirm {
-    /*position: relative;*/
-    margin: auto;
-    /*margin-top: 500px;*/
-    height: 50px;
-    background: transparent;
-    color: rgb(255,255,255,0.8);
-    width: 250px;
-    left: 20px;
-    text-align: center;
-    font-size: 30px;
-    line-height: 50px;
-    cursor: pointer;
-    transition-duration: 0.3s;
-    border-radius: 5px;
-    font-weight: bold;
+  /* position: relative; */
+  margin: auto;
+
+  /* margin-top: 500px; */
+  height: 50px;
+  background: transparent;
+  color: rgb(255 255 255 / 80%);
+  width: 250px;
+  left: 20px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  border-radius: 5px;
+  font-weight: bold;
 }
