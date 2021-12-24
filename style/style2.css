@@ -1,0 +1,317 @@
+#dailies_container {
+    width: 400px;
+    height: 550px;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.daily {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.15s ease-in;
+}
+
+.daily_inst {
+    margin-left: 30px
+}
+
+.daily_head {
+    width: 65%;
+    border: 1px solid rgb(0,0,0,0.2);
+    /*border-radius: 9px;*/
+    background: #cad8f1;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 15px;
+    box-shadow: 0px -17px 15px rgb(0,0,0,0.1) inset, 0px 0px 4px rgb(0,0,0,0.2);
+    cursor: pointer;
+    margin: 5px 0 5px 50px;
+    transition-duration: 0.3s;
+}
+
+/*.daily_head:after {
+    position: absolute;
+    left: 280px;
+    font-size: 20px;
+    content: ">>";
+    font-weight: bold;
+    transform: rotate(0deg);
+}
+
+.daily_head_clicked:after {
+    transform: rotate(90deg);
+}*/
+
+.daily_head_clicked {
+    background: #9eb8e5;
+    margin-left: 60px;
+}
+
+.daily_inst {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: right;
+    display: none;
+}
+
+.daily_inst div {
+    border-bottom: 2px solid rgb(42,47,91,0.3);
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: bottom;
+}
+
+.focused {
+    border-color: rgb(42,47,91,1) !important;
+    outline:none;
+}
+
+.daily_inst div:first-child {
+    width: 55%;
+}
+
+.daily_inst div:nth-child(2) {
+    /*padding-left: 15px;*/
+    width: 80px;
+    text-align: center;
+}
+
+.daily_inst div:first-child:after {
+    width: 100px;
+    
+}
+
+.daily_inst_score input {
+    width: 100%;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    height: 100%;
+}
+
+#top_container {
+    width: 500px;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left:15px;
+}
+
+.top_instance {
+    width: 500px;
+    height: 60px;
+    margin: 10px 0 10px 0;
+    position: relative;
+}
+
+.top_instance div {
+    display: inline-block;
+}
+
+.top_instance span {
+    line-height: 60px;
+}
+
+.top_box {
+    position: absolute;
+    left: 50px;
+    width: 300px;
+    background: #2a2f5b;
+    font-size: 25px;
+    height: 60px;
+    color: white;
+    padding-left: 65px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(0,0,0,0.4);
+    white-space: nowrap;
+}
+
+.top_input {
+    position: absolute;
+    left: 50px;
+    top: 3px;
+    width: 270px;
+    height: 45px;
+    border-bottom: 2px solid #2a2f5b;
+}
+
+.top_input input {
+    width: 100%;
+    border: none;
+    height: 45px;
+    font-size: 25px;
+}
+
+.top_img {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    background-image: url();
+}
+
+.top_x {
+    position: absolute;
+    right: -22px;
+    color: #e0e0e0;
+    font-size: 25px;
+    height: 100%;
+    font-weight: bold;
+    line-height: 55px;
+    font-family: 'Tahoma';
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.top_x:hover {
+    color: #b5b5b5;
+}
+
+.top_choice {
+    position: absolute;
+    left: 120px;
+    top: 50px;
+    width: 250px;
+    min-height: 30px;
+    z-index: 100;
+    border: 1px solid rgb(0,0,0,0.4);
+    box-shadow: 0 0 2px rgb(0,0,0,0.3);
+    cursor: pointer;
+    
+}
+
+.top_choice_inst {
+    display: block !important;
+    height: 30px;
+    background: #eeedec;
+    font-size: 15px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.top_choice_inst:hover{
+    background: #eac861;
+}
+
+#diary {
+    float:left;
+    height: 90%;
+    width: 800px;
+}
+
+.toggler {
+    position: relative;
+    border-radius: 50px;
+    background: #3b3d55;
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    border: 3px solid #1e1e1e;
+    box-shadow: 0px -9px 5px rgb(0,0,0,0.15) inset;
+}
+
+.toggler_overlay {
+    border-radius: 50px;
+    height: 50px;
+    width: 50%;
+    display: inline-block;
+    background: #67d146;
+    box-shadow: 0px -7px 2px rgb(0,0,0,0.2) inset;
+    position: absolute;
+    left: 0%;
+    z-index: 1;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border: 3px solid white;
+    box-sizing: border-box;
+}
+
+.toggler_data {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.toggler_data div {
+    width: 130px;
+    display: inline-block;
+}
+
+.toggler_data div:first-child {
+    margin-right: 80px;
+}
+
+#diary_todo {
+    padding: 15px 0 15px 0;
+}
+
+.todo_table {
+    width: 90%;
+    margin: 30px auto 0 auto;
+}
+
+.todo_table, #diary_letter textarea {
+    border: 2px solid #bfc0d8;
+}
+
+
+.todo_table td {
+    font-size: 25px;
+}
+
+.todo_table tr {
+    margin: 0;
+}
+
+.todo_table tr:nth-child(odd) input{
+    background: #bfc0d8;
+}
+
+.todo_table tr:nth-child(even) input{
+    background: #e2e2f2;
+}
+
+.todo_table td input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px 0 15px;
+    border-width: 0px;
+    /*border-bottom: 2px solid rgb(42,47,91,0.3);*/
+}
+
+#diary_letter {
+    width: 90%;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: auto;
+}
+
+#diary_letter span {
+    font-size: 40px;
+}
+
+#diary_letter textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 300px;
+    padding: 10px;
+    font-size: 20px;
+    resize: none;
+}
+
+#diary_letter div {
+    margin-top: 15px;
+}

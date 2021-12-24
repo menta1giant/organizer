@@ -1,0 +1,10 @@
+{
+    fit: 14,
+    margin: 5,
+    step: 1,
+    divisions: 5,
+    ceiling: 3,
+    height: 260,
+    palette: [124,7,137],
+    elements: [{desc:'06.05',value:0},{desc:'09.05',value:3},{desc:'08.05',value:1},{desc:'07.05',value:2},{desc:'06.05',value:0},{desc:'09.05',value:3},{desc:'08.05',value:1},{desc:'07.05',value:2},{desc:'06.05',value:0},{desc:'09.05',value:3},{desc:'08.05',value:1},{desc:'07.05',value:2},{desc:'06.05',value:0}]
+}
