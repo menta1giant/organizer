@@ -1,6 +1,6 @@
 let todoToggle = 0;
 let tomorrowDate;
-const currentPerson = 0;
+let currentPerson = 0;
 
 function diary2env() { // INITIALIZATION FUNCTION
   appendDate();
