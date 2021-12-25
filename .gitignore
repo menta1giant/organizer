@@ -1,6 +1,10 @@
 node_modules
-photos
-logs
-desc
-diary
+photos/*
+logs/*
+desc/*
+diary/*
 temp
+package-lock.json
+package.json
+.stylelintrc.json
+.eslintrc.json
