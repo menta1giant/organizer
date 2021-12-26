@@ -22,4 +22,5 @@ Since I started being interested in programming in 2015, I wanted to make myself
 work-outs, memory tasks, puzzles, fast typing etc. So I made it. After all the previous installations that are now lost to history, I started working on a carcass of this piece 
 in **2019** and in **early 2020** the whole thing was finished. It serves all the functions I wanted it to, and I find it to be very useful in my daily life.
 ## How do I launch it?
-`git clone`
+Use `git clone` to get a copy of this repository, then set up a local Apache server. You can see how to do this [here](https://www.sitepoint.com/how-to-install-apache-on-windows/) (for Windows).    
+Don't forget to change the web page root to the folder you've put project files into.
