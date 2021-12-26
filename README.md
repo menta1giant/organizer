@@ -14,14 +14,20 @@ This page contains such sections as
 * **Top**, where you can choose up to 3 people to give your personal awards to (if you decide to do so for any non-weird reason)
 * **Daily tasks**, where you fill in your progress in your chosen daily tasks.    
     
-Navigation between diary pages is possible via arrows in the top-left corner. You could also go directly to a desired page by typing in a link of form `root/2_diary.html?d=YYYYMMDD`
+Navigation between diary pages is possible via arrows in the top-left corner. You could also go directly to a desired page by typing in a link of form `root/2_diary.html?d=YYYYMMDD`    
+    
+![Diary.gif](https://i.imgur.com/FzgVpHp.gif)
 ### Highscores
 This is a summary of all daily tasks available to a user. By selecting task names, the user can inspect highscores and see performance data across different time periods.
 The page has two preconfigured categories: *Basic* and *Checkboxes*. The latter shall include binary-choice tasks.
-There are also options to create new tasks and drag existing ones between categories.
+There are also options to create new tasks and drag existing ones between categories.    
+    
+![Highscores.gif](https://i.imgur.com/N1d47Vy.gif)
 ### Leaderboard
 It presents rankings of your comrades with ability to choose time periods to compare.    
-Each person's name is clickable and will open their personal page with their bio and some statistics.The user can edit the bio by entering *edit mode*, which is togglable with a **pen icon** :pencil2: in the top-right corner.
+Each person's name is clickable and will open their personal page with their bio and some statistics. The user can edit the bio by entering *edit mode*, which is togglable with a **pen icon** :pencil2: in the top-right corner.    
+    
+![Leaderboard.gif](https://i.imgur.com/vvuPTuL.gif)
 <a name="hdth"/>
 ## How did this happen?
 Since I started being interested in programming in 2015, I wanted to make myself a tool to record my thoughts and provide help in organizing daily activities and exercises such as
