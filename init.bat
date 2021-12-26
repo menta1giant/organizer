@@ -1,0 +1,10 @@
+mkdir photos
+mkdir diary
+cd diary
+mkdir todo
+cd ../
+mkdir desc
+mkdir logs
+cd logs
+mkdir dailies
+mkdir monthly_results
